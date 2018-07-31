@@ -1,0 +1,910 @@
+<?xml version="1.0"?>
+<document filename="Invoices.pdf">
+  <template title="Invoices" author="Acespritech Solutions Pvt. Ltd." allowSplitting="20">
+    <pageTemplate id="first">
+      <frame id="first" x1="34.0" y1="28.0" width="530" height="786"/>
+    </pageTemplate>
+  </template>
+  <stylesheet>
+    <blockTableStyle id="Standard_Outline_no">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+    </blockTableStyle>
+    <blockTableStyle id="Standard_Outline">
+      <blockAlignment value="CENTER"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="GRID" colorName="black"/>
+    </blockTableStyle>
+    <blockTableStyle id="Standard_Outline_Header">
+    </blockTableStyle>
+    <blockTableStyle id="Table_Partner_Address">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="GRID" colorName="black"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table_Invoice_General_Header">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBEFORE" colorName="#e6e6e6" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#e6e6e6" start="0,0" stop="0,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#e6e6e6" start="1,0" stop="1,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#e6e6e6" start="1,0" stop="1,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="1,-1" stop="1,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#e6e6e6" start="2,0" stop="2,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#e6e6e6" start="2,0" stop="2,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#e6e6e6" start="2,0" stop="2,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="2,-1" stop="2,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#e6e6e6" start="3,0" stop="3,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#e6e6e6" start="3,0" stop="3,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#e6e6e6" start="3,0" stop="3,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="3,-1" stop="3,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table_General_Detail_Content">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBEFORE" colorName="#e6e6e6" start="0,0" stop="0,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#e6e6e6" start="0,0" stop="0,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#e6e6e6" start="1,0" stop="1,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#e6e6e6" start="1,0" stop="1,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="1,-1" stop="1,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#e6e6e6" start="2,0" stop="2,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#e6e6e6" start="2,0" stop="2,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#e6e6e6" start="2,0" stop="2,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="2,-1" stop="2,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#e6e6e6" start="3,0" stop="3,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#e6e6e6" start="3,0" stop="3,-1"/>
+      <lineStyle kind="LINEABOVE" colorName="#e6e6e6" start="3,0" stop="3,0"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="3,-1" stop="3,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table7">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,-1" stop="1,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="2,-1" stop="2,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="3,-1" stop="3,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="4,-1" stop="4,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="5,-1" stop="5,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table8">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="1,-1" stop="1,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="2,-1" stop="2,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="3,-1" stop="3,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="4,-1" stop="4,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="5,-1" stop="5,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table10">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="GRID" colorName="black"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table10_grey">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="GRID" colorName="black"/>
+      <blockBackground colorName="#cccccc"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table10_black">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <blockBackground colorName="#000000"/>
+      <lineStyle kind="GRID" colorName="black"/>
+    </blockTableStyle>
+<blockTableStyle id="Table10_blue">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <blockBackground colorName="#003F87"/>
+      <lineStyle kind="GRID" colorName="blue"/>
+    </blockTableStyle>
+
+    <blockTableStyle id="Table9">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,-1" stop="1,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="2,-1" stop="2,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table2">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="1,-1" stop="1,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="2,-1" stop="2,-1"/>
+    </blockTableStyle>
+
+    <blockTableStyle id="Table3">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="1,-1" stop="1,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="2,-1" stop="2,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="3,-1" stop="3,-1"/>
+    </blockTableStyle>
+ 
+    <blockTableStyle id="Table1">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+    </blockTableStyle>
+    <initialize>
+      <paraStyle name="all" alignment="justify"/>
+    </initialize>
+    <paraStyle name="Standard" fontName="Helvetica"/>
+    <paraStyle name="Text body" fontName="Helvetica" spaceBefore="0.0" spaceAfter="6.0"/>
+    <paraStyle name="List" fontName="Helvetica" spaceBefore="0.0" spaceAfter="6.0"/>
+    <paraStyle name="Table Contents" fontName="Helvetica" spaceBefore="0.0" spaceAfter="6.0"/>
+    <paraStyle name="Table Heading" fontName="Helvetica" alignment="CENTER" spaceBefore="0.0" spaceAfter="6.0"/>
+    <paraStyle name="Caption" fontName="Helvetica" fontSize="10.0" leading="13" spaceBefore="6.0" spaceAfter="6.0"/>
+    <paraStyle name="Index" fontName="Helvetica"/>
+    <paraStyle name="Heading" fontName="Helvetica" fontSize="15.0" leading="19" spaceBefore="12.0" spaceAfter="6.0"/>
+    <paraStyle name="terp_header" fontName="Helvetica-Bold" fontSize="12.0" leading="15" alignment="LEFT" spaceBefore="12.0" spaceAfter="6.0"/>
+    <paraStyle name="terp_default_8" rightIndent="0.0" leftIndent="0.0" fontName="Helvetica" fontSize="8.0" leading="10" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="Footer" fontName="Helvetica"/>
+    <paraStyle name="Horizontal Line" fontName="Helvetica" fontSize="6.0" leading="8" spaceBefore="0.0" spaceAfter="14.0"/>
+    <paraStyle name="Heading 9" fontName="Helvetica-Bold" fontSize="75%" leading="NaN" spaceBefore="12.0" spaceAfter="6.0"/>
+    <paraStyle name="terp_tblheader_General" fontName="Helvetica-Bold" fontSize="8.0" leading="10" alignment="LEFT" spaceBefore="6.0" spaceAfter="6.0"/>
+    <paraStyle name="terp_tblheader_Details" fontName="Helvetica-Bold" fontSize="9.0" leading="11" alignment="LEFT" spaceBefore="6.0" spaceAfter="6.0"/>
+    <paraStyle name="terp_default_Bold_8" rightIndent="0.0" leftIndent="0.0" fontName="Helvetica-Bold" fontSize="8.0" leading="10" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_tblheader_General_Centre" fontName="Helvetica-Bold" fontSize="8.0" leading="10" alignment="CENTER" spaceBefore="6.0" spaceAfter="6.0"/>
+    <paraStyle name="terp_tblheader_General_Right" fontName="Helvetica-Bold" fontSize="8.0" leading="10" alignment="RIGHT" spaceBefore="6.0" spaceAfter="6.0"/>
+    <paraStyle name="terp_tblheader_Details_Centre" fontName="Helvetica-Bold" fontSize="9.0" leading="11" alignment="CENTER" spaceBefore="6.0" spaceAfter="6.0"/>
+    <paraStyle name="terp_tblheader_Details_Right" fontName="Helvetica-Bold" fontSize="9.0" leading="11" alignment="RIGHT" spaceBefore="6.0" spaceAfter="6.0"/>
+    <paraStyle name="terp_default_Right_8" rightIndent="0.0" leftIndent="0.0" fontName="Helvetica" fontSize="8.0" leading="10" alignment="RIGHT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_Left_8" rightIndent="0.0" leftIndent="0.0" fontName="Helvetica" fontSize="8.0" leading="10" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_16_left" rightIndent="0.0" leftIndent="0.0" fontName="Helvetica" fontSize="14.0" leading="10" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_header_Right" fontName="Helvetica-Bold" fontSize="15.0" leading="19" alignment="LEFT" spaceBefore="12.0" spaceAfter="6.0"/>
+    <paraStyle name="terp_header_Centre" fontName="Helvetica-Bold" fontSize="12.0" leading="15" alignment="CENTER" spaceBefore="12.0" spaceAfter="6.0"/>
+    <paraStyle name="terp_default_address" rightIndent="0.0" leftIndent="0.0" fontName="Helvetica" fontSize="10.0" leading="13" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_9" rightIndent="0.0" leftIndent="0.0" fontName="Helvetica" fontSize="9.0" leading="11" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_6" rightIndent="0.0" leftIndent="0.0" fontName="Helvetica" fontSize="6.0" leading="11" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_6_center" rightIndent="0.0" leftIndent="0.0" fontName="Helvetica" fontSize="6.0" leading="11" alignment="CENTER" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_6_bold" rightIndent="0.0" leftIndent="0.0" fontName="Helvetica-Bold" fontSize="6.0" leading="10" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_6_bold_right" rightIndent="0.0" leftIndent="0.0" fontName="Helvetica-Bold" fontSize="6.0" leading="10" alignment="RIGHT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_6_bold_left" rightIndent="0.0" leftIndent="0.0" fontName="Helvetica-Bold" fontSize="8.0" leading="10" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+
+
+    <paraStyle name="terp_default_Bold_9" rightIndent="0.0" leftIndent="-3.0" fontName="Helvetica-Bold" fontSize="9.0" leading="11" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_Centre_9" rightIndent="0.0" leftIndent="0.0" fontName="Helvetica" fontSize="9.0" leading="11" alignment="CENTER" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_Right_9" rightIndent="0.0" leftIndent="0.0" fontName="Helvetica" fontSize="9.0" leading="11" alignment="RIGHT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_Bold_Right_9" rightIndent="0.0" leftIndent="-3.0" fontName="Helvetica-Bold" fontSize="9.0" leading="11" alignment="RIGHT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_2" rightIndent="0.0" leftIndent="0.0" fontName="Helvetica" fontSize="2.0" leading="3" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="terp_default_White_2" rightIndent="0.0" leftIndent="0.0" fontName="Helvetica" fontSize="2.0" leading="3" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0" textColor="#ffffff"/>
+    <paraStyle name="terp_default_Note" rightIndent="0.0" leftIndent="9.0" fontName="Helvetica-Oblique" fontSize="8.0" leading="10" alignment="LEFT" spaceBefore="0.0" spaceAfter="0.0"/>
+    <paraStyle name="Table" fontName="Helvetica" fontSize="10.0" leading="13" spaceBefore="6.0" spaceAfter="6.0"/>
+    <paraStyle name="User Index 10" rightIndent="0.0" leftIndent="127.0" fontName="Helvetica"/>
+    <paraStyle name="Preformatted Text" fontName="Helvetica" fontSize="10.0" leading="13" spaceBefore="0.0" spaceAfter="0.0"/>
+    <images/>
+  </stylesheet>
+  <story>
+  <pto>
+    <para style="terp_default_8">[[ repeatIn(objects,'o') ]]</para>
+    <para style="terp_default_8">[[ setLang(o.partner_id.lang) ]]</para>
+   <!-- <pto_header>
+	    <blockTable colWidths="270.0,50.0,50.0,60.0,50.0,50.0" style="Table10_grey">
+	      <tr>
+	        <td>
+	          <para style="terp_tblheader_General">Description</para>
+	        </td>
+	        <td>
+	          <para style="terp_tblheader_General_Centre">Taxes</para>
+	        </td>
+	        <td>
+	          <para style="terp_tblheader_General_Right">Quantity</para>
+	        </td>
+	        <td>
+	          <para style="terp_tblheader_General_Right">Unit Price</para>
+	        </td>
+	        <td>
+	          <para style="terp_tblheader_General_Right">Disc.(%)</para>
+	        </td>
+	        <td>
+	          <para style="terp_tblheader_General_Right">Price</para>
+	        </td>
+	      </tr>
+	    </blockTable>
+    </pto_header> -->
+    <blockTable style="Standard_Outline" colWidths="160.0,370.0">
+      <tr>
+        <td>
+        	<blockTable style="Standard_Outline_no" >
+	          <tr>
+	          	<td>
+          			 <image width="140" height="50.0" >[[ company.logo or removeParentNode('image') ]]</image>
+        		</td>
+	          </tr>
+	         </blockTable>
+        </td>
+        <td>
+        	<blockTable style="Standard_Outline">
+	          <tr>
+	          	<td>
+  		<para style="terp_header_Centre"><font size="16" color="#21A735">FREE QUOTE/PROFORMA INVOICE</font></para>
+	  				<para style="terp_default_8">
+			            <font color="white"> </font>
+			          </para>
+	          	</td>
+	          </tr>
+	      </blockTable>
+        </td>
+       </tr>
+    </blockTable>
+    <para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+    <blockTable colWidths="335.0,95.0,100.0" style="Standard_Outline">
+      <tr>
+        <td>
+          <para style="terp_default_8">Registration No: 2010/056593/23.</para>
+        </td>
+        <td>
+          <para style="terp_default_Bold_9">Doc No.</para>
+        </td><td>
+          <para style="terp_default_Bold_9"> [[ (o.name) ]]</para>
+        </td>
+      </tr>
+    </blockTable>
+    <blockTable colWidths="530.0" style="Standard_Outline">
+      <tr>
+        <td>
+          <para style="terp_default_8">CHARTERQUEST HOUSE, Metropolitan Park, 374 Rivonia Boulevard, Rivonia, SANDTON, South Africa</para>
+        </td>
+      </tr>
+    </blockTable>
+    <blockTable colWidths="125.0,105.0,105.0,45.0,150.0" style="Standard_Outline">
+      <tr>
+        <td>
+          <para style="terp_default_8">Tel no.</para>
+        </td>
+        <td>
+          <para style="terp_default_8">+27 (0)11 234 9223</para>
+        </td>
+        <td>
+          <para style="terp_default_8">+27 (0)11 234 9238</para>
+        </td>
+        <td>
+          <para style="terp_default_8">Email</para>
+        </td>
+        <td>
+          <para style="terp_default_8">accounts@charterquest.co.za</para>
+        </td>
+      </tr>
+    </blockTable>
+    <blockTable colWidths="125.0,405.0" style="Standard_Outline">
+      <tr>
+        <td>
+          <para style="terp_default_8">Fax </para>
+        </td>
+        <td>
+          <para style="terp_default_8"> 0862 188 713</para>
+        </td>
+      </tr>
+    </blockTable>
+    <blockTable colWidths="125.0,145.0,95.0,165.0" style="Standard_Outline">
+      <tr>
+        <td>
+          <para style="terp_default_8">Website </para>
+        </td>
+        <td>
+          <para style="terp_default_8">www.charterquest.co.za</para>
+        </td>
+        <td>
+          <para style="terp_default_8">Date </para>
+        </td>
+        <td>
+          <para style="terp_default_8">[[ o.date_order or 'NA']]</para>
+        </td>
+      </tr>
+    </blockTable>
+    <blockTable colWidths="125.0,405.0" style="Standard_Outline">
+      <tr>
+        <td>
+          <para style="terp_default_8">Our VAT No.</para>
+        </td>
+        <td>
+          <para style="terp_default_8">4350256212</para>
+        </td>
+      </tr>
+    </blockTable>
+    <para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+    <blockTable colWidths="125.0,405.0" style="Table10_grey">
+        <tr>
+	        <td>
+			    <para style="terp_default_16_left"> ADDRESSED TO </para>
+			    <para style="terp_default_8">
+			      <font color="white"> </font>
+			    </para>
+		    </td>
+		    <td>
+		      <para style="terp_default_8">
+			      <font color="white"> </font>
+			    </para>
+			</td>
+	    </tr>
+	</blockTable>
+    <blockTable colWidths="125.0,145.0,95.0,165.0" style="Standard_Outline">
+      <tr><para >[[ (o.affiliation != "1"  or removeParentNode('blockTable')) ]]</para>
+		  <td>
+		    <para style="terp_default_8">Company</para>
+		  </td>
+		  <td>
+		      <para style="terp_default_8">[[ o.partner_id.student_company or '' ]]</para>
+		  </td>
+		  <td>
+		      <para style="terp_default_8">VAT No</para>
+		  </td>
+		  <td>
+		      <para style="terp_default_8">[[ o.partner_id.vat_no_comp or '' ]]</para>
+		  </td>
+	  </tr>
+       </blockTable>
+     <blockTable colWidths="125.0,145.0,95.0,165.0" style="Standard_Outline">
+	  <tr>
+          <td>
+            <para style="terp_default_8">Name of Student/Sponsor</para>
+          </td>
+          <td>
+              <para style="terp_default_8">[[ o.partner_id and o.partner_id and o.partner_id.name.title() or '']]</para>
+          </td>
+          <td>
+              <para style="terp_default_8">Student no</para>
+          </td>
+          <td>
+              <para style="terp_default_8"></para>
+          </td>
+      </tr>
+    </blockTable>
+    <blockTable colWidths="125.0,405.0" style="Standard_Outline">
+      <tr>
+          <td>
+            <para style="terp_default_8">Student Address</para>
+          </td>
+          <td>
+              <para style="terp_default_8">[[ o.partner_id and o.partner_id.street or  '' ]] [[ o.partner_id and o.partner_id.street2 or  '' ]] [[ o.partner_id and o.partner_id.street2 and ',' or  '' ]] [[ o.partner_id and o.partner_id.city or  '' ]] [[ o.partner_id and o.partner_id.city and ',' or  '' ]] [[ o.partner_id and o.partner_id.state_id and o.partner_id.state_id.name or  '' ]] [[ o.partner_id and o.partner_id.state_id and o.partner_id.state_id.name and ',' or  '' ]] [[ o.partner_id and o.partner_id.zip or  '' ]][[ o.partner_id and o.partner_id.zip and ',' or  '' ]] [[ o.partner_id and o.partner_id.country_id and o.partner_id.country_id.name or  '' ]]</para>
+          </td>
+      </tr>
+    </blockTable>
+    <blockTable colWidths="125.0,165.0,85.0,155.0" style="Standard_Outline">
+      <tr>
+          <td>
+            <para style="terp_default_8">Tel</para>
+          </td>
+          <td>
+              <para style="terp_default_8">[[ o.partner_id and o.partner_id.phone or 'Not Provided']] </para>
+          </td>
+          <td>
+              <para style="terp_default_8">Mobile</para>
+          </td>
+          <td>
+              <para style="terp_default_8">[[ o.partner_id and o.partner_id.mobile or 'Not Provided']] </para>
+          </td>
+      </tr>
+      <tr>
+          <td>
+            <para style="terp_default_8">Email</para>
+          </td>
+          <td>
+              <para style="terp_default_8">[[ o.partner_id and o.partner_id.email or 'Not Provided']] </para>
+          </td>
+          <td>
+              <para style="terp_default_8">Fax</para>
+          </td>
+          <td>
+              <para style="terp_default_8">[[ o.partner_id and o.partner_id.fax or 'Not Provided']] </para>
+          </td>
+      </tr>
+    </blockTable>
+    <blockTable colWidths="125.0,165.0,85.0,155.0" style="Standard_Outline">
+      <tr>
+          <td>
+            <para style="terp_default_8">D.O.B</para>
+          </td>
+          <td>
+              <para style="terp_default_8">[[ o.partner_id and o.partner_id.dob or 'Not Provided']]</para>
+          </td>
+          <td>
+            <para style="terp_default_8">Prof Body Student ID</para>
+          </td>
+          <td>
+              <para style="terp_default_8">[[ o.partner_id and o.partner_id.prof_body_id or 'Not Provided']]</para>
+          </td>
+
+      </tr>
+    </blockTable>
+    <blockTable colWidths="530.0" style="Table10_grey">
+      <tr>
+          <td>
+            <para style="terp_default_16_left">PROGRAMME AND CAMPUS DETAILS:</para>
+            <para style="terp_default_8">
+                              <font color="white"> </font>
+                            </para>
+  
+          </td>
+      </tr>
+    </blockTable>
+    <section>
+    <blockTable colWidths="125.0,145.0,95.0,165.0" style="Standard_Outline">
+      <tr>
+          <td>
+            <para style="terp_default_8">Professional Body</para>
+          </td>
+          <td>
+              <para style="terp_default_8">[[ o.prof_body and o.prof_body.name or 'Not Provided']]</para>
+          </td>
+          <td>
+              <para style="terp_default_8">Semester</para>
+          </td>
+          <td>
+              <para style="terp_default_8">[[ o.semester_id and o.semester_id.name or 'Not Provided']]</para>
+          </td>
+      </tr>
+    </blockTable>
+    </section>
+    <section>
+    <blockTable colWidths="125.0,405.0" style="Standard_Outline">
+      <tr>
+          <td>
+            <para style="terp_default_8">Selected Campus</para>
+          </td>
+          <td>
+              <para style="terp_default_8">[[ o.campus and o.campus.name or 'Not Provided']]</para>
+          </td>
+      </tr>
+    </blockTable>
+    </section>
+    <para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+    <blockTable colWidths="270.0,50.0,50.0,60.0,50.0,50.0" style="Table10_grey">
+      <tr>
+        <td>
+          <para style="terp_tblheader_General">Description</para>
+        </td>
+        <td>
+          <para style="terp_tblheader_General_Centre">Taxes</para>
+        </td>
+        <td>
+          <para style="terp_tblheader_General_Right">Quantity</para>
+        </td>
+        <td>
+          <para style="terp_tblheader_General_Right">Unit Price</para>
+        </td>
+        <td>
+          <para style="terp_tblheader_General_Right">Disc.(%)</para>
+        </td>
+        <td>
+          <para style="terp_tblheader_General_Right">Price</para>
+        </td>
+      </tr>
+    </blockTable>
+    <section>
+      <para style="terp_default_2">[[ repeatIn(o.order_line,'l') ]]</para>
+      <blockTable colWidths="270.0,50.0,50.0,60.0,50.0,50.0" style="Standard_Outline">
+        <tr>
+          <td>
+            <para style="terp_default_Left_8">[[ format(l.name) ]]</para>
+          </td>
+          <td>
+            <para style="terp_default_Right_8">[[ ', '.join([ lt.name or '' for lt in l.tax_id ]) ]]</para>
+          </td>
+          <td>
+            <para style="terp_default_Right_8">[[ formatLang(l.product_uom_qty)]] </para>
+          </td>
+          <td>
+            <para style="terp_default_Right_8">[[ formatLang(l.price_unit) ]]</para>
+          </td>
+          <td>
+            <para style="terp_default_Right_8">[[ formatLang(l.discount, dp='Account') ]] </para>
+          </td>
+          <td>
+            <para style="terp_default_Right_8">[[ formatLang( l.price_subtotal, dp='Account', currency_obj=o.currency_id, ) ]]</para>
+          </td>
+        </tr>
+      </blockTable>
+    </section>
+    <blockTable colWidths="320.0,160.0,50.0" style="Table10_grey">
+      <tr>
+        <td>
+          <para style="terp_default_6_bold_right">SUB TOTAL</para>
+        </td>
+        <td>
+          <para style="terp_default_8">
+            <font color="white"> </font>
+          </para>
+        </td>
+        <td>
+          <para style="terp_default_6_bold_right">[[ formatLang(o.amount_untaxed, digits=get_digits(dp='Account'), currency_obj=o.currency_id) ]]</para>
+        </td>
+      </tr>
+    </blockTable>
+    <blockTable colWidths="320.0,160.0,50.0" style="Table10">
+      <tr>
+        <td>
+          <para style="terp_default_6_bold_right">VAT @ 14%</para>
+        </td>
+        <td>
+          <para style="terp_default_8">
+            <font color="white"> </font>
+          </para>
+        </td>
+        <td>
+          <para style="terp_default_6_bold_right">[[ formatLang(o.amount_tax, dp='Account', currency_obj=o.currency_id) ]]</para>
+        </td>
+      </tr>
+    </blockTable>
+    <blockTable colWidths="320.0,160.0,50.0" style="Table10_black">
+      <tr>
+        <td>
+          <para style="terp_default_6_bold_right"><font size="6" color="white">TOTAL FEES</font></para>
+        </td>
+        <td>
+          <para style="terp_default_8">
+            <font color="white"> </font>
+          </para>
+        </td>
+        <td>
+          <para style="terp_default_6_bold_right"><font size="6" color="white">[[ formatLang(o.amount_total, digits=get_digits(dp='Account'), currency_obj=o.currency_id) ]]</font></para>
+        </td>
+      </tr>
+    </blockTable>
+ 
+    <para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+
+    <blockTable colWidths="120,410" style="Standard_Outline">
+       <tr>
+          <td><para style="terp_default_6_bold_left">Display of Payment Structure:</para></td>
+          <td>
+             <blockTable colWidths="100,100,100,100" style="Standard_Outline">
+                <tr>
+                  <td><para style="terp_default_8">Invoice Total</para></td>
+                  <td><para style="terp_default_8">R [[ o.amount_total ]]</para></td>
+                  <td><para style="terp_default_8">Outstanding Balance (inclusive of VAT &amp; Interest)</para></td>
+                  <td><para style="terp_default_8">R [[  o.out_standing_balance_incl_vat and o.out_standing_balance_incl_vat or '0.0']]</para></td>
+                </tr>
+                <tr>
+                  <td><para style="terp_default_8">Deposit %</para></td>
+                  <td><para style="terp_default_8">[[ o.diposit_selected ]]%</para></td>
+                  <td><para style="terp_default_8">No. of payment months</para></td>
+                  <td><para style="terp_default_8">[[ o.months or '0']]</para></td>
+                </tr>
+                <tr>
+                  <td><para style="terp_default_8">Total Due (To Secure Discounts &amp; Access)</para></td>
+                  <td><para style="terp_default_8">R [[ formatLang(o.due_amount) ]]</para></td>
+                  <td><para style="terp_default_8">Display of monthly amounts</para></td>
+                  <td><para style="terp_default_8">R [[ o.monthly_amount and formatLang(o.monthly_amount) or '0' ]]</para></td>
+                </tr>
+             </blockTable> 
+          </td>
+       </tr>
+    </blockTable>
+
+    <para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+    <para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+     
+     <blockTable colWidths="530" style="Table10_black">
+       <tr>
+        <td>
+          <para style="terp_default_6_bold_left"><font size="6" color="white"> SPECIAL OFFERS (FOR SELF SPONSORED STUDENTS ONLY):
+</font></para>
+        </td>
+       </tr>
+     </blockTable>
+     <para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+
+     <blockTable colWidths="530" style="Table10_grey">
+       <tr>
+        <td>
+          <para style="terp_default_6_bold_left"><font size="6" color="black">''YES WE CAN!'' PLEDGE</font></para>
+        </td>
+       </tr>
+     </blockTable>
+    <para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+        
+<para style="terp_default_8">
+With ONLY R995 + VAT (= R1134) per module or 20% of this invoice together with a 1-6 months signed debit order mandate
+for the balance, YES WE CAN:
+</para>       <para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+    <para style="terp_default_8">1. Secure all your study materials and grant you immediate access to class.</para>
+       <para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+    <para style="terp_default_8">2. Remit your registration, annual subscription and/or exam fees in full to your Professional Body or University.</para>
+       <para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+   <blockTable colWidths="530" style="Table10_grey">
+       <tr>
+        <td>
+          <para style="terp_default_6_bold_left"><font size="6" color="black">OUR TERMS AND CONDITIONS:</font></para>
+        </td>
+       </tr>
+     </blockTable>
+ <para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+      <para style="terp_default_8">1. This free quote/invoice is valid for 90 days and ONLY for the benefits as specified in the table below.</para>
+       <para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+  
+    <para style="terp_default_6_bold_left">2.The Student Agreement is integral to this quote and attached separately and/or accessible from the link <a href="http://www.charterquest.co.za/page/terms-and-conditions">http://www.charterquest.co.za/page/terms-and-conditions</a></para> 
+    <para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+<para style="terp_default_6_bold_left"><font color="red">TO ENROL/ACCEPT THIS QUOTE, CLICK LINK:</font><para> [[  setTag('para','a',{'href':o.link_portal or 'http://enrolments.charterquest.co.za/'}) ]] [[ o.link_portal ]]</para></para>
+
+<para style="terp_default_8">
+      <font color="white"> </font>
+    </para> 
+
+
+
+<blockTable colWidths="530" style="Table10_grey">
+       <tr>
+        <td>
+          <para style="terp_default_6_bold_left"><font size="6" color="black"> 2. DISCOUNTS AVAILABLE/APPLIED:
+</font></para>
+        </td>
+       </tr>
+     </blockTable>
+     <para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+<blockTable colWidths="70.0,320.0,70.0,70.0" style="Table10_grey">
+<tr>
+<td>
+<para style="terp_tblheader_Details"> Discount category</para>
+</td>
+<td>
+<para style="terp_tblheader_Details"> Requirement (All discounts must be claimed and included in the free quote or final invoice prior to making the first payment or will be forfeited).</para>
+</td>
+<td>
+<para style="terp_tblheader_Details">Discount %  Available</para>
+</td>
+<td>
+<para style="terp_tblheader_Details">Discount % Applied</para>
+</td>
+</tr>
+</blockTable>
+
+<section>
+<para>[[repeatIn(get_terms(o.prof_body.name),'obj')]]</para>
+<blockTable colWidths="70.0,320.0,70.0,70.0" style="Standard_Outline">
+<tr>
+<td>
+<para style="terp_default_8"> [[obj.name]]</para>
+</td>
+<td>
+<para style="terp_default_8"> [[obj.condition]]</para>
+</td>
+<td>
+<para style="terp_default_6_center">[[obj.discount]]</para>
+</td>
+<td>
+ <image file="event_price_kt/report/check.png"  width="10" height="10">[[ (get_discount(obj.id,o.id) == "Yes"  or removeParentNode('image')) ]]</image>
+<image file="event_price_kt/report/cross.jpg" width="10" height="10">[[ (get_discount(obj.id,o.id) == "No"  or removeParentNode('image')) ]]</image> 
+</td>
+
+</tr>
+</blockTable>
+</section>
+<blockTable colWidths="70.0,320.0,70.0,70.0" style="Standard_Outline">
+<tr>
+<td>
+<para style="terp_tblheader_Details"></para>
+</td>
+<td>
+<para style="terp_tblheader_Details">MAXIMUM DISCOUNT AVAILABLE/APPLIED</para>
+</td>
+<td>
+<para style="terp_default_6_center">[[get_max()]]</para>
+</td>
+<td>
+<para style="terp_default_6_center">[[ o.discount ]]</para>
+</td>
+</tr>
+</blockTable>
+
+<para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+
+
+
+
+<blockTable colWidths="530" style="Table10_black">
+       <tr>
+        <td>
+          <para style="terp_default_6_bold_left"><font size="6" color="white"> A.  PRODUCT PACKAGE BENEFIT DESCRIPTIONS:</font></para>
+        </td>
+       </tr>
+     </blockTable>
+     <para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+        
+  
+  <blockTable colWidths="100,150,280" style="Table10_grey">
+      <tr>
+        <td>
+            <para style="terp_tblheader_Details">CODE</para>
+        </td>
+        <td>
+            <para style="terp_tblheader_Details">DESCRIPTION</para>
+        </td>
+        <td>
+            <para style="terp_tblheader_Details">INDICATIVE BENEFITS</para>
+            <para style="terp_tblheader_Details">Benefits are subject to our advertisments on the timetable/website. ''e'' means eletronic materials you can download and print or access via tablet device)</para>
+        </td>
+      </tr>
+    </blockTable>
+    <blockTable colWidths="100,150,280" style="Standard_Outline">
+      <tr>
+        <td>
+            <para style="terp_default_6">TEPP -E</para>
+        </td>
+        <td>
+	        <para style="terp_default_6">Tuition &amp; Exam Prep Package - Evenings</para>
+        </td>
+        <td>
+            <para style="terp_default_6">1. 18 - 21 hours of Tuition contact time (structured over 6-9, 3 hour sessions)</para>
+            <para style="terp_default_6">2. 6-18 hours of Exam Preps/Revision time (structured over 4-5, 3 hour sessions)</para>
+            <para style="terp_default_6">3. Kaplan Study Text and e-Course Notes</para>
+            <para style="terp_default_6">4. Kaplan Workbook/Exam Bank (OT Practice/Revision Kit)</para>
+            <para style="terp_default_6">5. 2 Progress Mocks/Tests + 1 Final Mock all marked with review feedback.</para>
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <para style="terp_default_6">TEPP -W</para>
+        </td>
+        <td>
+                <para style="terp_default_6">Tuition &amp; Exam Prep Package -Weekends</para>
+        </td>
+        <td>
+            <para style="terp_default_6">1. 18 - 21 hours of Tuition contact time (structured over 6-9, 3 hour sessions)</para>
+            <para style="terp_default_6">2. 6-18 hours of Exam Preps/Revision time (structured over 4-5, 3 hour sessions)</para>
+            <para style="terp_default_6">3. Kaplan Study Text and e-Course Notes</para>
+            <para style="terp_default_6">4. Kaplan Workbook/Exam Bank (OT Practice/Revision Kit)</para>
+            <para style="terp_default_6">5. 2 Progress Mocks/Tests + 1 Final Mock all marked with review feedback.</para>
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <para style="terp_default_6">TEPP -D </para>
+        </td>
+        <td>
+                <para style="terp_default_6">Tuition &amp; Exam Prep Package -Daytime Block Release Package</para>
+        </td>
+        <td>
+             <para style="terp_default_6">1. 18 - 21 hours of Tuition contact time (structured over 6-9, 3 hour sessions)</para>
+            <para style="terp_default_6">2. 6-18 hours of Exam Preps/Revision time (structured over 4-5, 3 hour sessions)</para>
+            <para style="terp_default_6">3. Kaplan Study Text and e-Course Notes</para>
+            <para style="terp_default_6">4. Kaplan Workbook/Exam Bank (OT Practice/Revision Kit)</para>
+            <para style="terp_default_6">5. 2 Progress Mocks/Tests + 1 Final Mock all marked with review feedback.</para>
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <para style="terp_default_6">TEPP -FT</para>
+        </td>
+        <td>
+                <para style="terp_default_6">Tuition &amp; Exam Prep Package -Fulltime</para>
+        </td>
+        <td>
+            <para style="terp_default_6">1. 18 - 21 hours of Tuition contact time (structured over 6-9, 3 hour sessions)</para>
+            <para style="terp_default_6">2. 6-18 hours of Exam Preps/Revision time (structured over 4-5, 3 hour sessions)</para>
+            <para style="terp_default_6">3. Kaplan Study Text and e-Course Notes</para>
+            <para style="terp_default_6">4. Kaplan Workbook/Exam Bank (OT Practice/Revision Kit)</para>
+            <para style="terp_default_6">5. 2 Progress Mocks/Tests + 1 Final Mock all marked with review feedback.</para>
+         </td>
+      </tr>
+      <tr>
+        <td>
+            <para style="terp_default_6">TEPP -W(ICS)</para>
+        </td>
+        <td>
+                <para style="terp_default_6">Tuition &amp; Exam Prep Package -Weekends(Integrated Case Study Exams)</para>
+        </td>
+        <td>
+            <para style="terp_default_6">1. 18 - 24 hours of Tuition contact time</para>
+            <para style="terp_default_6">2. 6-18 hours of Exam Preps/Revision time</para>
+            <para style="terp_default_6">3. Kaplan Case Study specific Workbook/e Course Notes</para>
+            <para style="terp_default_6">4. 2 Progress Mocks/Tests + 1 Final Mock all marked with review feedback.</para>
+           
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <para style="terp_default_6">EPOP (ICS) </para>
+        </td>
+        <td>
+                <para style="terp_default_6">Exam Prep ONLY Package (Integrated Case Study Exams)</para>
+        </td>
+        <td>
+            <para style="terp_default_6">1. 6-18 hours of Exam Preps/Revision time</para>
+            <para style="terp_default_6">2. Kaplan Case Study specific Workbook/e Course Notes</para>
+            <para style="terp_default_6">3. 1 Final Mock all marked with review feedback.</para>
+            
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <para style="terp_default_6">EPOP </para>
+        </td>
+        <td>
+                <para style="terp_default_6">Exam Preparatory Only Package (E/W/D/FT) for OT Exams</para>
+        </td>
+        <td>
+            <para style="terp_default_6">1. 6-18 hours of Exam Preps/Revision time (structured over 4, 3 hour sessions)</para>
+            <para style="terp_default_6">2. Kaplan Workbook/Exam Bank (OT Practice/Revision Kit)</para>
+            <para style="terp_default_6">3. 2 Progress Mocks/Tests + 1 Final Mock all marked with review feedback.</para>
+            
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+            <para style="terp_default_6">HSP</para>
+        </td>
+        <td>
+                <para style="terp_default_6">Home Study Package</para>
+        </td>
+        <td>
+            <para style="terp_default_6">1. Home Study Kit/Scheme of Work</para>
+            <para style="terp_default_6">2. Interactive online support</para>
+            <para style="terp_default_6">3. Kaplan Study Text and Course Notes</para>
+            <para style="terp_default_6">4. Kaplan Workbook/Exam Bank (OT Practice/Revision Kit)</para>
+            <para style="terp_default_6">5. 2 Progress Mocks/Tests + 1 Final Mock all marked with review feedback.</para>
+
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <para style="terp_default_6">TEBP</para>
+        </td>
+        <td>
+                <para style="terp_default_6">Transition and Exam Booster Package</para>
+        </td>
+        <td>
+            <para style="terp_default_6">1. 6-12 hours of Exam Preps/Revision time</para>
+            <para style="terp_default_6">2. Kaplan e-Course Notes</para>
+            <para style="terp_default_6">3. Kaplan Workbook/Exam Bank (OT Practice/Revision Kit)</para>
+            
+        </td>
+      </tr>
+  
+    </blockTable>
+    <para style="terp_default_8">
+      <font color="white"> </font>
+    </para>
+    <blockTable colWidths="530.0" style="Table10_black">
+        <tr>
+            <td>
+            <para style="terp_default_6_center" >
+            <font color="white">WE LOOK FORWARD TO BEING OF SERVICE TO YOU.THANK YOU!</font>
+            </para>
+            </td>
+        </tr>
+    </blockTable>
+  </pto>
+  </story>
+</document>
+

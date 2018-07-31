@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report
+        id="report_pcexam_voucher1"
+        string="PCExams Voucher"
+        model="pcexams.voucher"
+        report_type="qweb-pdf"
+        file="event_price_kt.pcexam_voucher_report"
+        name="event_price_kt.pcexam_voucher_report"/>
+
+        <!--<delete model="ir.actions.report.xml" search="[('name','=','Quotation / Order'),('model','=','sale.order')]"/>-->
+
+        <!--<report-->
+        <!--auto="False"-->
+        <!--id="sales_proforma_enrollment"-->
+        <!--model="sale.order"-->
+        <!--name="sales_proforma_enrollment"-->
+        <!--rml="event_price_kt/report/sales_enrollment_proforma.rml"-->
+        <!--string="Enrollment Proforma"-->
+        <!--usage="default"-->
+        <!--/>-->
+
+        <!--<report-->
+        <!--auto="False"-->
+        <!--id="sales_proforma_charterbooks"-->
+        <!--model="sale.order"-->
+        <!--name="sales_proforma_charterbooks"-->
+        <!--rml="event_price_kt/report/sales_charterbooks_proforma.rml"-->
+        <!--string="CharterBooks Proforma"-->
+        <!--usage="default"-->
+        <!--/>-->
+
+
+        <!--<report-->
+        <!--auto="False"-->
+        <!--id="sales_proforma_pcexams"-->
+        <!--model="sale.order"-->
+        <!--name="sales_proforma_pcexams"-->
+        <!--rml="event_price_kt/report/sales_pcexam_proforma.rml"-->
+        <!--string="PC Exam Proforma"-->
+        <!--usage="default"-->
+        <!--/>-->
+
+
+        <!--<report-->
+        <!--auto="False"-->
+        <!--id="account_invoice_enrollment"-->
+        <!--model="account.invoice"-->
+        <!--name="account_invoice_enrollment"-->
+        <!--rml="event_price_kt/report/account_enrollment_invoice.rml"-->
+        <!--string="Enrollment Invoice"-->
+        <!--usage="default"-->
+        <!--/>-->
+
+        <!--<report-->
+        <!--auto="False"-->
+        <!--id="account_invoice_charterbooks"-->
+        <!--model="account.invoice"-->
+        <!--name="account_invoice_charterbooks"-->
+        <!--rml="event_price_kt/report/account_charterbooks_invoice.rml"-->
+        <!--string="CharterBooks Invoice"-->
+        <!--usage="default"-->
+        <!--/>-->
+
+        <!--<delete model="ir.actions.report.xml" search="[('name','=','Invoices'),('model','=','account.invoice')]"/>-->
+        <!--<report-->
+        <!--auto="False"-->
+        <!--id="account_invoice_pcexams"-->
+        <!--model="account.invoice"-->
+        <!--name="account_invoice_pcexams"-->
+        <!--rml="event_price_kt/report/account_pcexam_invoice.rml"-->
+        <!--string="PC Exam Invoice"-->
+        <!--usage="default"-->
+        <!--/>-->
+
+        <!--<report-->
+        <!--auto="False"-->
+        <!--id="account_statement_enrollment"-->
+        <!--model="debit.order.details"-->
+        <!--name="account_statement_enrollment"-->
+        <!--rml="event_price_kt/report/account_enrollment_statement.rml"-->
+        <!--string="Enrollment Statement"-->
+        <!--usage="default"-->
+        <!--/>-->
+
+        <!--<report-->
+        <!--auto="False"-->
+        <!--id="statement_enrollment"-->
+        <!--model="account.invoice"-->
+        <!--name="statement_enrollment"-->
+        <!--rml="event_price_kt/report/enrollment_statement.rml"-->
+        <!--string="Account Enrollment Statement"-->
+        <!--usage="default"-->
+        <!--/>-->
+    </data>
+</odoo>
